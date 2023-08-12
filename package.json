@@ -41,10 +41,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o build/",
-    "start": "next start",
-    "test": "echo 'write some tests'",
-    "storybook": "start-storybook -p 9009 -h localhost"
-  },
+    "start": "next start" 
+},
   "browserslist": {
     "production": [
       ">10%",
