@@ -13,7 +13,7 @@ import Menu from './svg/menu.svg';
 import Pause from './svg/pause.svg';
 import Play from './svg/play.svg';
 import Send from './svg/send.svg';
-import LinkedIn from './svg/LinkedIn.svg';
+import LinkedIn from './svg/linkedin.svg';
 
 export const icons = {
   arrowLeft: ArrowLeft,
