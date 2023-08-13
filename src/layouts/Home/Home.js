@@ -1,14 +1,14 @@
 import phoneFrontLarge from 'assets/phone-front-large.png';
-import phoneFrontPlaceholder from 'assets/gamestack-list-placeholder.jpg';
+import phoneFrontPlaceholder from 'assets/phone-front-large.png';
 import phoneFrontSmall from 'assets/phone-front-large.png';
 import phoneBackLarge from 'assets/phone-back-large.PNG';
-import phoneBackPlaceholder from 'assets/gamestack-login-placeholder.jpg';
+import phoneBackPlaceholder from 'assets/phone-back-large.PNG';
 import phoneBackSmall from 'assets/phone-back-large.PNG';
 import pollAppLarge from 'assets/pollapp-large.png';
 import pollAppPlaceholder from 'assets/pollapp-large.png';
 import pollAppSmall from 'assets/pollapp-large.png';
 import personalWebsiteLarge from 'assets/personal-website-large.jpg';
-import personalWebsitePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
+import personalWebsitePlaceholder from 'assets/personal-website-large.jpg';
 import personalWebsiteSmall from 'assets/personal-website-large.jpg';
 import focusyouthLarge from 'assets/focusyouth-large.png';
 import { Footer } from 'components/Footer';

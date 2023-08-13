@@ -65,7 +65,7 @@
   transition: color var(--durationS) ease 0.1s;
   line-height: 1;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
 
   &:hover,
   &:active,
@@ -79,7 +79,7 @@
     position: absolute;
     right: var(--spaceS);
     left: var(--spaceS);
-    height: 4px;
+    height: 3px;
     background: rgb(var(--rgbAccent));
     transform: scaleX(0);
     transform-origin: right;
