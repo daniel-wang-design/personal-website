@@ -11,6 +11,9 @@ import personalWebsiteLarge from 'assets/personal-website-large.jpg';
 import personalWebsitePlaceholder from 'assets/personal-website-large.jpg';
 import personalWebsiteSmall from 'assets/personal-website-large.jpg';
 import focusyouthLarge from 'assets/focusyouth-large.png';
+import websiteFront from 'assets/website-front.jpg';
+import websiteBack from 'assets/website-back.jpg';
+import websitePlaceholder from 'assets/website-front.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -30,6 +33,7 @@ export const Home = () => {
   const projectTwo = useRef();
   const projectThree = useRef();
   const projectFour = useRef();
+  const projectFive = useRef();
   const details = useRef();
   const contact = useRef();
 
@@ -40,6 +44,7 @@ export const Home = () => {
       projectTwo,
       projectThree,
       projectFour,
+      projectFive,
       details,
       contact,
     ];
@@ -156,8 +161,32 @@ export const Home = () => {
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
         index={4}
+        title="3D Portlio Website"
+        description="My newest 3D website showcasing some of my past projects and experience"
+        buttonText="View project"
+        buttonLink=""
+        model={{
+          type: 'phone',
+          alt: '',
+          textures: [
+            {
+              srcSet: [websiteBack, websiteBack],
+              placeholder: websitePlaceholder,
+            },
+            {
+              srcSet: [websiteFront, websiteFront],
+              placeholder: websitePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-5"
+        sectionRef={projectFive}
+        visible={visibleSections.includes(projectFive.current)}
+        index={4}
         title="Personal Website"
-        description="My personal website showcasing some of my past projects and experience"
+        description="My first personal website showcasing some of my past projects and experience"
         buttonText="View project"
         buttonLink=""
         model={{

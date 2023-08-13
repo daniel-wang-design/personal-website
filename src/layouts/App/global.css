@@ -76,3 +76,6 @@ body {
     transform-origin: right;
   }
 }
+::-webkit-scrollbar {
+  display: none;
+}
