@@ -120,7 +120,7 @@ export const Home = () => {
         title="Improvall"
         description="A mobile app that encourages productivity created for both Android and iOS devices"
         buttonText="View Project"
-        buttonLink=""
+        buttonLink="/mobile"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -185,7 +185,7 @@ export const Home = () => {
         id="project-5"
         sectionRef={projectFive}
         visible={visibleSections.includes(projectFive.current)}
-        index={4}
+        index={5}
         title="Personal Website"
         description="My first personal website showcasing some of my past projects and experience"
         buttonText="View project"
