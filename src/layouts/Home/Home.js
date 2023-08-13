@@ -5,7 +5,7 @@ import phoneBackLarge from 'assets/phone-back-large.PNG';
 import phoneBackPlaceholder from 'assets/gamestack-login-placeholder.jpg';
 import phoneBackSmall from 'assets/phone-back-large.PNG';
 import pollAppLarge from 'assets/pollapp-large.png';
-import pollAppPlaceholder from 'assets/slice-app-placeholder.jpg';
+import pollAppPlaceholder from 'assets/pollapp-large.png';
 import pollAppSmall from 'assets/pollapp-large.png';
 import personalWebsiteLarge from 'assets/personal-website-large.jpg';
 import personalWebsitePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
@@ -94,7 +94,7 @@ export const Home = () => {
         title="Digital Volunteer Portal"
         description="App created for FOCUS Youth Organization allowing executives, tutors, and volunteers to sign in and log their volunteer hours."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/portal"
         model={{
           type: 'laptop',
           alt: '',
@@ -114,7 +114,7 @@ export const Home = () => {
         index={2}
         title="Improvall"
         description="A mobile app that encourages productivity created for both Android and iOS devices"
-        buttonText="View website"
+        buttonText="View Project"
         buttonLink=""
         model={{
           type: 'phone',
@@ -139,7 +139,7 @@ export const Home = () => {
         title="Slack Polling App"
         description="An open-source app for Slack workplaces to allow users to create polls"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink=""
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -159,7 +159,7 @@ export const Home = () => {
         title="Personal Website"
         description="My personal website showcasing some of my past projects and experience"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink=""
         model={{
           type: 'laptop',
           alt: '',

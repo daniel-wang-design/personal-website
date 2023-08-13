@@ -15,8 +15,10 @@ const initDelay = 300;
 export function ProjectHeader({
   title,
   description,
-  linkLabel = 'Visit website',
-  url,
+  linkLabel1 = 'Visit website',
+  url1,
+  linkLabel2,
+  url2,
   roles,
   className,
 }) {
@@ -33,15 +35,26 @@ export function ProjectHeader({
           <Text className={styles.description} size="xl" as="p">
             {description}
           </Text>
-          {!!url && (
+          {!!url1 && (
             <Button
               secondary
               iconHoverShift
               className={styles.linkButton}
               icon="chevronRight"
-              href={url}
+              href={url1}
             >
-              {linkLabel}
+              {linkLabel1}
+            </Button>
+          )}
+          {!!url2 && (
+            <Button
+              secondary
+              iconHoverShift
+              className={styles.linkButton}
+              icon="chevronRight"
+              href={url2}
+            >
+              {linkLabel2}
             </Button>
           )}
         </div>
