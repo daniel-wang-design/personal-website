@@ -165,7 +165,7 @@ export const Home = () => {
         title="3D Portlio Website"
         description="My newest 3D website showcasing some of my past projects and experience"
         buttonText="View project"
-        buttonLink=""
+        buttonLink="/portfolio"
         model={{
           type: 'phone',
           alt: '',
@@ -204,7 +204,7 @@ export const Home = () => {
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
-        id="details"
+        id="about"
       />
       <Contact
         id="contact"

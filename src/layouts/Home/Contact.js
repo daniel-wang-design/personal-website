@@ -78,7 +78,6 @@ export const Contact = ({ visible, sectionRef, id }) => {
 
   return (
     <Section className={styles.contact} ref={sectionRef} as="section" id={id}>
-      <Meta title="Contact" description="Feel free to send me a message to connect!" />
       <Transition in={visible} timeout={1600}>
         {(visible, status) => (
           <form className={styles.form} method="POST" onSubmit={onSubmit}>

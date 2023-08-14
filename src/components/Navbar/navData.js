@@ -8,12 +8,12 @@ export const navLinks = [
     pathname: '/#project-1',
   },
   {
-    label: 'Extracurricular',
-    pathname: '#',
+    label: 'Experience',
+    pathname: '/experience',
   },
   {
     label: 'About',
-    pathname: '/#details',
+    pathname: '/#about',
   },
 ];
 
