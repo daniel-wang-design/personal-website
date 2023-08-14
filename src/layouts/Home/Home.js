@@ -189,7 +189,7 @@ export const Home = () => {
         title="Personal Website"
         description="My first personal website showcasing some of my past projects and experience"
         buttonText="View project"
-        buttonLink=""
+        buttonLink="/oldwebsite"
         model={{
           type: 'laptop',
           alt: '',
