@@ -20,7 +20,7 @@ import styles from './Portfolio.module.css';
 const title = '3D Portfolio Website';
 const description =
   'Step into a captivating digital realm with my personal portfolio website, infused with the dynamic allure of 3D computer graphics. Explore my journey and creative works with immersive 3D elements that redefine the way you engage with my portfolio.';
-const techStack = ['Three.js', 'React', 'Next.js', 'Framer Motion'];
+const techStack = ['Three.js', 'React', 'Next.js', 'JavaScript', 'CSS', 'Framer Motion'];
 
 export const Portfolio = () => {
   return (
@@ -48,7 +48,7 @@ export const Portfolio = () => {
                 My website is set up to shine on desktops and mobiles alike. With
                 responsive design, every part shifts seamlessly to match any screen size.
                 So, whether you are on a computer or phone, the site keeps its awesomeness
-                with clear text and sharp visuals. 
+                with clear text and sharp visuals.
               </ProjectSectionText>
             </div>
             <div className={styles.sidebarImages}>
