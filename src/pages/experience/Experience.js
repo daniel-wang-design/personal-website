@@ -44,7 +44,11 @@ export const Experience = () => {
                 <List>
                   <ListItem>
                     I was a <Link href="">Backend Software Developer</Link> for JANA
-                    Corporation, an engineering/software development company.
+                    Corporation, an engineering/software development company. I&apos;ve
+                    learned how to create RESTful APIS using the .NET framework and with a
+                    Model-View-Controller (MVC) achitectural pattern. I also created many
+                    features by writing in C# and T-SQL, utilizing SOLID Principles, and
+                    finally testing my code using XUnit.
                   </ListItem>
                 </List>
               </ProjectSectionText>
@@ -105,8 +109,9 @@ export const Experience = () => {
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    I was a <Link href="">Backend Software Developer</Link> for JANA
-                    Corporation, an engineering/software development company.
+                    I was a <Link href="">VP of Technology</Link> for Improvall, a JACO
+                    company. I led a team of 4 to create a mobile app from scratch using
+                    Flutter and Dart.
                   </ListItem>
                 </List>
               </ProjectSectionText>
