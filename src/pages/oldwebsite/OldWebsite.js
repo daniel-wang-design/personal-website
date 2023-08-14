@@ -20,7 +20,7 @@ import styles from './OldWebsite.module.css';
 
 const title = 'My First Website';
 const description =
-  "This was my first website and my first React project! I created the website from scratch and included fade animations to spice things up.";
+  'This was my first website and my first React project! I created the website from scratch and included fade animations to spice things up.';
 const techStack = ['React', 'TailWind CSS', 'Next.js', 'JavaScript'];
 
 export const OldWebsite = () => {
@@ -38,6 +38,8 @@ export const OldWebsite = () => {
           title={title}
           description={description}
           roles={techStack}
+          url1="https://daniel-wang-design.vercel.app"
+          linkLabel1="View Website"
           url2="https://github.com/daniel-wang-design/daniel-wang-design.github.io"
           linkLabel2="View GitHub"
         />
