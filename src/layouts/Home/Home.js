@@ -144,7 +144,7 @@ export const Home = () => {
         title="Slack Polling App"
         description="An open-source app for Slack workplaces to allow users to create polls"
         buttonText="View project"
-        buttonLink=""
+        buttonLink="/slack"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
