@@ -14,6 +14,7 @@ import { Fragment, useState } from 'react';
 import { media } from 'utils/style';
 import styles from './Profile.module.css';
 import { useScrollToHash } from 'hooks';
+import { Link } from 'components/Link';
 
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
@@ -21,16 +22,14 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there!" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Lorensl ksflkjwl jslfjk sdljksdfl sdfljdfl fljdklas lkfjl sfjdsflkf ljsdfk
-      falsesdflkjflfa-flip-horizontal fjksdlfsdjaf afljlfs flkfj ljflksflf ldfkj sdflkjlf
-      flkjsdf slfjf fj sf sdlfjsd lfjksdlfjsdks flskjfljksdf lfjsd jsdflksdf sklfj
-      sdlfjksdfjsd lfjks jasdjfasd jfsdkjfjawioej
+      I&apos;m a <Link href="">Computer Science</Link> student at the{' '}
+      <Link href="">University of Waterloo</Link> with a passion in creating software
+      solutions to solve real-world problems. In my free time, I enjoy taking part in
+      charitable causes, being active, and playing the guitar.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Lorensl ksflkjwl jslfjk sdljksdfl sdfljdfl fljdklas lkfjl sfjdsflkf ljsdfk
-      falsesdflkjflfa-flip-horizontal fjksdlfsdjaf afljlfs flkfj ljflksflf ldfkj sdflkjlf
-      flkjsdf slfjf fj sf sdlfjsd lfjksdlfjsdks flskjfljksdf lfjsd jsdflksdf sklfj
-      sdlfjksdfjsd lfjks jasdjfasd jfs
+      I&apos;m currently working as a Backend Software Developer at JANA Corporation
+      developing RESTful APIs using the .NET Framework, and programming with C# and T-SQL.
     </Text>
   </Fragment>
 );
