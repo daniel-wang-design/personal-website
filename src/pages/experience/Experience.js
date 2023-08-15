@@ -110,8 +110,17 @@ export const Experience = () => {
                 <List>
                   <ListItem>
                     I was a <Link href="">VP of Technology</Link> for Improvall, a JACO
-                    company. I led a team of 4 to create a mobile app from scratch using
-                    Flutter and Dart.
+                    company. I led a team of 4 developers to create a mobile app from
+                    scratch using Flutter and Dart.
+                  </ListItem>
+                  <ListItem>
+                    <Link href="">Founder</Link> and{' '}
+                    <Link href="">Chair of the Board</Link> for FOCUS Youth Organization,
+                    a student-run charity.
+                  </ListItem>
+                  <ListItem>
+                    My 3rd year as a <Link href="">Councillor</Link> for the University of
+                    Waterloo&apos;s Youth and Innovation Project
                   </ListItem>
                 </List>
               </ProjectSectionText>
