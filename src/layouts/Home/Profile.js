@@ -63,6 +63,15 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 secondary
                 className={styles.button}
                 data-visible={visible}
+                href="/experience"
+                icon="link"
+              >
+                Learn more about my experiences
+              </Button>{' '}
+              <Button
+                secondary
+                className={styles.button}
+                data-visible={visible}
                 href="#contact"
                 icon="send"
                 onClick={handleScrollClick}
