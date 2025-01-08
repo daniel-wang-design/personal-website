@@ -70,7 +70,7 @@ export const Home = () => {
           }
         });
       },
-      { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
+      { rootMargin: '0px 0px -10% 0px' }
     );
 
     const indicatorObserver = new IntersectionObserver(
