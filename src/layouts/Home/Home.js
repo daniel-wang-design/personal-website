@@ -25,6 +25,11 @@ import styles from './Home.module.css';
 
 const disciplines = ['CS Student', 'Developer', 'Learner', 'Designer', 'Leader'];
 
+const isChromeBrowser = () => {
+  const userAgent = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+  return /Chrome/.test(userAgent) && !/Edg/.test(userAgent);
+};
+
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
@@ -36,6 +41,11 @@ export const Home = () => {
   const projectFive = useRef();
   const details = useRef();
   const contact = useRef();
+  const [isChrome, setIsChrome] = useState(true);
+
+  useEffect(() => {
+    setIsChrome(isChromeBrowser());
+  }, []);
 
   useEffect(() => {
     const sections = [
@@ -90,6 +100,7 @@ export const Home = () => {
         sectionRef={intro}
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
+        isChrome={isChrome}
       />
       <ProjectSummary
         id="project-1"
@@ -110,6 +121,7 @@ export const Home = () => {
             },
           ],
         }}
+        isChrome={isChrome}
       />
       <ProjectSummary
         id="project-2"
@@ -135,6 +147,7 @@ export const Home = () => {
             },
           ],
         }}
+        isChrome={isChrome}
       />
       <ProjectSummary
         id="project-3"
@@ -155,6 +168,7 @@ export const Home = () => {
             },
           ],
         }}
+        isChrome={isChrome}
       />
       <ProjectSummary
         id="project-4"
@@ -180,6 +194,7 @@ export const Home = () => {
             },
           ],
         }}
+        isChrome={isChrome}
       />
       <ProjectSummary
         id="project-5"
@@ -200,6 +215,7 @@ export const Home = () => {
             },
           ],
         }}
+        isChrome={isChrome}
       />
       <Profile
         sectionRef={details}

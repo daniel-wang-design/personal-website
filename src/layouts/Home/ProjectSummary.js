@@ -26,6 +26,7 @@ export const ProjectSummary = ({
   buttonText,
   buttonLink,
   alternate,
+  isChrome,
   ...rest
 }) => {
   const [focused, setFocused] = useState(false);
@@ -166,12 +167,12 @@ export const ProjectSummary = ({
               {!alternate && !isMobile && (
                 <>
                   {renderDetails(visible)}
-                  {renderPreview(visible)}
+                  {!isChrome && renderPreview(visible)}
                 </>
               )}
               {(alternate || isMobile) && (
                 <>
-                  {renderPreview(visible)}
+                  {!isChrome && renderPreview(visible)}
                   {renderDetails(visible)}
                 </>
               )}

@@ -94,11 +94,10 @@ export const Model = ({
       alpha: true,
       antialias: false,
       powerPreference: 'high-performance',
-      failIfMajorPerformanceCaveat: true,
     });
-
-    renderer.current.setPixelRatio(2);
-    renderer.current.setSize(clientWidth, clientHeight);
+    const SCALE = 0.1;
+    renderer.current.setPixelRatio(Math.min(window.devicePixelRatio, 1));
+    renderer.current.setSize(clientWidth * SCALE, clientHeight * SCALE);
     renderer.current.outputEncoding = sRGBEncoding;
     renderer.current.physicallyCorrectLights = true;
 
