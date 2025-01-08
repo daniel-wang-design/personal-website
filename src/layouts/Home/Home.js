@@ -95,6 +95,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta title="UWaterloo CS" description="Personal website of Daniel Wang" />
+      {isChrome && <div className={styles.warningBanner}>Some Elements Were Not Rendered | Chrome Functionality Limited | Use Edge Instead</div>}
       <Intro
         id="intro"
         sectionRef={intro}
