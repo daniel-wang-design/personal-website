@@ -24,12 +24,12 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I&apos;m a <Link href="">Computer Science</Link> student at the{' '}
       <Link href="">University of Waterloo</Link> with a passion in creating software
-      solutions to solve real-world problems. In my free time, I enjoy taking part in
-      charitable causes, being active, and playing the guitar.
+      solutions to solve real-world problems. I am interested in working on large scale complex software 
+      systems and machine learning or artificial intelligence related projects.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I&apos;m currently working as a Backend Software Developer at JANA Corporation
-      developing RESTful APIs using the .NET Framework, and programming with C# and T-SQL.
+      I was previously a Full Stack and AI/LLM intern at Huawei, a Full Stack intern at Avanti Software, 
+      and a Backend intern at JANA Corporation.
     </Text>
   </Fragment>
 );
