@@ -18,7 +18,14 @@ const DisplacementSphere = dynamic(() =>
   import('layouts/Home/DisplacementSphere').then(mod => mod.DisplacementSphere)
 );
 
-export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, isChrome, ...rest }) {
+export function Intro({
+  id,
+  sectionRef,
+  disciplines,
+  scrollIndicatorHidden,
+  isChrome,
+  ...rest
+}) {
   const theme = useTheme();
   const [disciplineIndex, setDisciplineIndex] = useState(0);
   const prevTheme = usePrevious(theme);
@@ -59,7 +66,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, isCh
       <Transition in key={theme.themeId} timeout={3000}>
         {(visible, status) => (
           <Fragment>
-            {!isChrome && <DisplacementSphere />}
+            {<DisplacementSphere />}
             <header className={styles.text}>
               <h1 className={styles.name} data-visible={visible} id={titleId}>
                 <DecoderText text="Daniel Wang" delay={300} />

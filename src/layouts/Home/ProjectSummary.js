@@ -167,12 +167,12 @@ export const ProjectSummary = ({
               {!alternate && !isMobile && (
                 <>
                   {renderDetails(visible)}
-                  {!isChrome && renderPreview(visible)}
+                  {renderPreview(visible)}
                 </>
               )}
               {(alternate || isMobile) && (
                 <>
-                  {!isChrome && renderPreview(visible)}
+                  {renderPreview(visible)}
                   {renderDetails(visible)}
                 </>
               )}
